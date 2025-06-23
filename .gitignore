@@ -1,0 +1,22 @@
+# 依存管理フォルダ
+/node_modules/
+
+# ログやデバッグファイル
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# 一時ファイル
+.DS_Store
+*.tmp
+*.tsbuildinfo  # TypeScriptキャッシュ
+
+# dotenvで使う環境変数ファイル
+.env*
+!.env.example
+
+# その他キャッシュや出力フォルダ
+/.npm
+/.eslintcache
+/.nyc_output
+/dist
